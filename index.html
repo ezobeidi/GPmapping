@@ -160,7 +160,8 @@
        <tr>
         <td align=center width=100px>
         <center>
-        <span style="font-size:20px">University of California, Berkeley<br/>In ECCV, 2018</span>
+        <span style="font-size:20px">Department of Electrical and Computer Engineering 
+University of California, San Diego <br/>IROS, 2020</span>
         </center>
         </td>
      </tr>
@@ -209,8 +210,7 @@
             </table>
 
             <br>
-            We present a learning framework for recovering the 3D shape, camera, and texture of an object from a single image. The shape is represented as a deformable 3D mesh model of an object category where a shape is parameterized by a learned mean shape and per-instance predicted deformation. Our approach allows leveraging an annotated image collection for training, where the deformable model and the 3D prediction mechanism are learned without relying on ground-truth 3D or multi-view supervision. Our representation enables us to go beyond existing 3D prediction approaches by  incorporating texture inference as prediction of an image in a canonical appearance space. Additionally, we show that semantic keypoints can be easily associated with the predicted shapes. We present qualitative and quantitative results of our approach on the CUB dataset, and show that we can learn to predict the diverse shapes and textures across birds using only an annotated image collection. We also demonstrate the the applicability of our method for learning the 3D structure of other generic categories.
-            <br><br>
+            We develop an online probabilistic metric- semantic mapping approach for autonomous robots relying on streaming RGB-D observations. We cast this problem as a Bayesian inference task, requiring encoding both the geo- metric surfaces and semantic labels (e.g., chair, table, wall) of the unknown environment. We propose an online Gaussian Process (GP) training and inference approach, which avoids the complexity of GP classification by regressing a truncated signed distance function representation of the regions occupied by different semantic classes. Online regression is enabled through sparse GP approximation, compressing the training data to a finite set of inducing points, and through spatial domain partitioning into an Octree data structure with overlapping leaves. Our experiments demonstrate the effectiveness of this technique for large-scale probabilistic metric-semantic mapping of 3D environments. A distinguishing feature of our approach is that the generated maps contain full continuous distributional information about the geometric surfaces and semantic labels, making them appropriate for uncertainty-aware planning.            <br><br>
           <hr>
          <!-- <table align=center width=550px> -->
             <table align=center width=800>
@@ -219,11 +219,11 @@
                     <!--<td width=300px align=left>-->
                     <!-- <a href="http://arxiv.org/pdf/1603.08511.pdf"> -->
                   <!-- <td><a href="#"><img class="layered-paper-big" style="height:175px" src="./resources/images/paper.png"/></a></td> -->
-                  <td><a href="https://arxiv.org/pdf/1803.07549.pdf"><img style="height:300px" src="./resources/images/paper.png"/></a></td>
-                  <td><span style="font-size:14pt">Kanazawa, Tulsiani, Efros, Malik.<br><br>
-                          Learning Category-Specific Mesh Reconstruction <br>from Image Collections.<br><br>
+                  <td><a href="http://erl.ucsd.edu/ref/Zobeidi_GPMapping_IROS20.pdf"><img style="height:300px" src="./resources/images/paper.png"/></a></td>
+                  <td><span style="font-size:14pt">Ehsan Zobeidi, Alec Koppel, Nikolay Atanasov.<br><br>
+                          Dense Incremental Metric-Semantic Mapping  <br>via Sparse Gaussian Process Regression.<br><br>
                   In ECCV, 2018.<br><br>
-                      <a href="https://arxiv.org/pdf/1803.07549.pdf">[pdf]</a> &nbsp; &nbsp;
+                      <a href="http://erl.ucsd.edu/ref/Zobeidi_GPMapping_IROS20.pdf">[pdf]</a> &nbsp; &nbsp;
                       <a href="./resources/bibtex.txt">[Bibtex]</a>
                   <!-- [hosted on <a href="#">arXiv</a>]</a> -->
                     </td>
